@@ -1,0 +1,22 @@
+driver
+busNum
+startMiles
+endMiles
+startTime
+endTime
+loop/stop-Count
+
+------
+
+tblDriver: id, fname, lname, isActive
+
+tblDate: id, servicedate
+
+	tblShift: id, dateid(fk), driverid(fk), busNumber, starttime, endTime, startMiles, endMiles
+
+
+tblRoute: id, routename
+	
+	tblTrip: id, routeid(fk), shiftid(fk), tripname
+	
+		tblStopdata: id, tripid(fk), schedTime, stopname, ridership (integer), sortorder

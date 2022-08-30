@@ -1,0 +1,36 @@
+Access/Prototype Task 
+	analyze forms
+	
+	list fields
+	
+	erd/field design
+	
+	make accdb container
+	
+	make simple DE forms for data
+
+4D Task
+	license 4D
+	
+	observe/document 4D DE solution 
+		table, field, forms
+	
+	migrate configuration
+		export config data
+		export ridership data
+
+online dataentry task
+	design DE form(s) to gather data from madbus
+
+access/storage analysis task
+	adapt design to accomodate input from 4D dataset(s)
+	
+	import data
+	
+	prep storage db for use
+	
+	plan use
+		documentation
+		user admin
+	
+	golive
